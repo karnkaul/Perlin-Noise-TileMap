@@ -1,6 +1,6 @@
 #pragma once
 #include <noise/noise.h>
-#include <noiseutils/noiseutils.h>
+#include <noise/noiseutils.h>
 
 using namespace noise;
 using namespace utils;

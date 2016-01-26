@@ -20,7 +20,6 @@ void TileMap::initBoard(int rows, int columns, int tileSize, const std::vector<s
 {
 	vertices.setPrimitiveType(sf::Quads);
 	vertices.resize(rows * columns * 4);
-	std::cout << "Vertices: " << vertices.getVertexCount() << std::endl;
 
 	// Column-wise traversal for vertex array
 	for (int i = 0; i < rows; ++i)
