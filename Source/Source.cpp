@@ -14,7 +14,6 @@ unsigned int getBucket(const double&, const unsigned int&);
 
 int main()
 {
-	float seed = 0;
 	std::vector<std::vector<int> > bucketValues;
 
 	srand(time(0));
